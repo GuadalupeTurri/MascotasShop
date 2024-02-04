@@ -5,7 +5,7 @@
  const showAlert = document.getElementById("showAlert");
  const cantidadCarrito = document.getElementById("cantidadCarrito");
  
- 
+ swal ("¡ Bienvenidos! " , " Shop de Mascotas");
  
  //obtengo lo que tengo guardado en el localStorage
  let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
